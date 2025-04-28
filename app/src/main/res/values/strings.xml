@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Myjava</string>
+    <string name="choice_your_nfavorite_coffee">Choice your\nFavorite coffee</string>
+    <string name="the_best_coffee_n_in_the_world">The best coffee \n in the world</string>
+    <string name="get_started">Get Started</string>
+    <string name="choose_your_n_favorite_coffee">choose your\n favorite coffee</string>
+    <string name="search_anything">Search anything ...</string>
+    <string name="category">Category</string>
+    <string name="popular_coffees">Popular coffees</string>
+    <string name="see_all">see all</string>
+    <string name="dollar">$</string>
+    <string name="coffee_size">Coffee Size</string>
+</resources>
