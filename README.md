@@ -1,56 +1,52 @@
-# Coffee_Shop
-CV Project Description (Concise):
-E-Commerce Android App | Kotlin, MVVM, Android Jetpack, Glide
+# ☕ E-Commerce Android App
 
-Developed a feature-rich e-commerce app using MVVM architecture with Android Jetpack components (LiveData, ViewModel).
+A full-featured e-commerce coffee shop application built with **Kotlin** and **MVVM architecture**. Users can browse products by category, view details, adjust quantities, and manage their shopping cart with real-time price updates. Data is powered by **Firebase Realtime Database**.
 
-Integrated dynamic UI components using RecyclerView, ViewBinding, and Glide for seamless image loading.
+---
 
-Implemented product browsing by category, detailed product views, cart management, and real-time price updates.
+## 🔑 Key Features
 
-Utilized repository pattern for data handling and observed lifecycle-aware data flow between layers.
+- 🔍 Product browsing by category
+- 🛒 Detailed product views with size/quantity selection
+- 💰 Real-time price calculation and cart updates
+- 📦 Cart management using custom logic
+- 🖼 Seamless image loading with Glide
+- 🔄 Dynamic UI with RecyclerViews
+- 🔧 Lifecycle-aware updates using LiveData and ViewModel
+- 🔥 Firebase Realtime Database for backend data
 
-Long Project Description:
-E-Commerce Android Application
-This project is a fully functional e-commerce app that allows users to explore products by category, view detailed item information, adjust quantities, and manage a shopping cart. Key highlights include:
+---
 
-Architecture: Followed MVVM (Model-View-ViewModel) pattern to separate business logic from UI, ensuring scalability and testability.
+## 🧱 Architecture
 
-ViewModel fetched data from a repository and exposed it via LiveData for lifecycle-aware UI updates.
+This app follows the **MVVM (Model-View-ViewModel)** architecture with:
 
-Data Classes (BannerModel, CategoryModel, ItemsModel) structured API/data responses.
+- **Repository Pattern** for clean data access
+- **ViewModel** to manage UI-related data in a lifecycle-conscious way
+- **LiveData** to observe data changes and update the UI reactively
+- **ViewBinding** for type-safe access to views
 
-Features:
+---
 
-Dynamic Lists: Implemented horizontal and vertical RecyclerViews with adapters (CategoryAdapter, PopularAdapter) for category/product displays.
+## 🧰 Tech Stack
 
-Item Details: Used Glide for image loading and enabled size selection, quantity adjustments, and cart additions in DetailActivity.
+| Category              | Tools & Libraries                             |
+|----------------------|-----------------------------------------------|
+| Language             | Kotlin                                        |
+| Architecture         | MVVM, Repository Pattern                      |
+| UI Components        | RecyclerView, Toast, ProgressBar              |
+| Android Jetpack      | LiveData, ViewModel, ViewBinding              |
+| Image Loading        | Glide                                         |
+| Backend              | Firebase Realtime Database                    |
+| IDE & Build System   | Android Studio, Gradle                        |
 
-Cart Management: Tracked item quantities and total prices using a custom ManagmentCart class.
+---
 
-Responsive UI: Applied progress bars for loading states and handled click events for smooth navigation between activities.
-
-Technical Tools:
-
-Android Jetpack: LiveData, ViewModel, ViewBinding, and Activity/Fragment navigation.
-
-Third-Party Libraries: Glide for efficient image loading.
-
-UI Components: RecyclerView (with GridLayoutManager and LinearLayoutManager), Toast notifications, and Intent-based navigation.
-
-Optimizations:
-
-Alternating RecyclerView item layouts (left/right image placement) in ItemsListCategoryAdapter for enhanced visual appeal.
-
-Efficient state management for selected categories using background resource updates.
-
-Tools & Technologies Used:
-Languages: Kotlin
-
-Architecture: MVVM (Model-View-ViewModel)
-
-Android Components: LiveData, ViewModel, RecyclerView, ViewBinding, Intent
-
-Libraries: Glide (Image Loading)
-
-Tools: Android Studio, Gradle
+## 📂 Project Structure
+com.example.ecommerceapp
+- **adapters/ # RecyclerView adapters
+- **data/ # Firebase models and cart manager
+- **repository/ # Data handling logic
+- **activities/ # Main, Detail, Cart activities
+- **fragments/ # Reusable UI sections
+- **viewmodel/ # ViewModels for business logic
