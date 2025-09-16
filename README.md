@@ -1,4 +1,4 @@
-# ☕ E-Commerce Android App
+# ☕ Qahva
 
 A full-featured e-commerce coffee shop application built with **Kotlin** and **MVVM architecture**. Users can browse products by category, view details, adjust quantities, and manage their shopping cart with real-time price updates. Data is powered by **Firebase Realtime Database**.
 
