@@ -3,6 +3,13 @@
 A full-featured e-commerce coffee shop application built with **Kotlin** and **MVVM architecture**. Users can browse products by category, view details, adjust quantities, and manage their shopping cart with real-time price updates. Data is powered by **Firebase Realtime Database**.
 
 ---
+<p float="left">
+  <img src="IMG-20250804-WA0005.jpg" alt="Screenshot 1" width="200"/>
+  <img src="IMG-20250804-WA0006.jpg" alt="Screenshot 2" width="200"/>
+  <img src="IMG-20250804-WA0007.jpg" alt="Screenshot 3" width="200"/>
+  <img src="IMG-20250804-WA0008.jpg" alt="Screenshot 4" width="200"/>
+</p>
+
 
 ## 🔑 Key Features
 
